@@ -221,7 +221,7 @@ pre_install(){
             echo "port = ${shadowsocksport}"
             echo "---------------------------"
             echo
-            break
+#           break
         fi
     fi
     echo -e "[${red}Error${plain}] Please enter a correct number [1-65535]"
